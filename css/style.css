@@ -134,8 +134,8 @@ b {
 }
 
 .bg-overlay {
-    background: #005C97;  /* fallback for old browsers */
-    background: linear-gradient(to right, slategrey , lightslategrey); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #fff;  /* fallback for old browsers */
+    background: linear-gradient(to right, white); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     opacity: 0.7;
     position: absolute;
     height: 100%;
@@ -415,14 +415,15 @@ iframe {
           5.HOME 
   =====================================*/
 
-.bg-home {
+/* .bg-home {
     background: url('../images/3d-coronavirus-vaccine.jpg');
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-}
+} */
 
 .home-title {
+    color : #122a43ff;
     font-size: 46px;
     line-height: 64px;
 }
