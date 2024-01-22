@@ -134,8 +134,8 @@ b {
 }
 
 .bg-overlay {
-    background: #fff;  /* fallback for old browsers */
-    background: linear-gradient(to right, white); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    background: #fafbfe!important;  /* fallback for old browsers */
+    background: linear-gradient(to right, #fafbfe); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
     opacity: 0.7;
     position: absolute;
     height: 100%;
@@ -589,6 +589,7 @@ iframe {
 
 .services-box:hover{
     border: 3px inset black;
+    cursor: pointer;
 }
 
 .services-box i {
