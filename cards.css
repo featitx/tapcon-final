@@ -1,157 +1,53 @@
-.padded {
-    padding: 100px 0;
-  }
-  .wrapper-grey {
-    background: #F4F4F4;
-  }
-  .avatar {
-    width: 30px;
-    border-radius: 50%;
-  }
-  .avatar-bordered {
-    box-shadow: 0 1px 2px rgba(0,0,0,0.2);
-    border: white 1px solid;
-  }
-  .avatar-large {
-    width: 50px;
-  }
+
+    .page-title{
+        margin-top: 7rem;
+    }
+
+    .margin-feature{
+        margin-top: 4rem;
+    }
+
+    .card-image{
+        margin: 0 AUTO;
+    }
+
+.mar-b{
+    margin-bottom: 5rem;
+}
+
+
+.soldet1{
+    color: #0d73bbff;
+   }
+  
+   .soldet2{
+    color: #a5248fff;
+   }
+  
+   .soldet3{
+    color: #eb4840ff;
+   }
+
+
+ #ads .card:hover {
+    background: #fff;
+    box-shadow: 12px 15px 20px 0px rgba(46,61,73,0.15);
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+#ads .card-image-overlay {
+font-size: 20px;
+
+}
+
+
+#ads .card-image-overlay span {
+    display: inline-block;              
+}
+
+
+
+
 
   
-
-  /* .banner {
-    color: white;
-    text-align: center;
-    height: 100vh;
-    background-size: cover !important;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-  }
-  .banner h1 {
-    font-size: 50px;
-    font-weight: bold;
-    text-shadow: 0px 1px rgba(0, 0, 0, 0.2);
-  }
-  .banner p {
-    font-size: 25px;
-    font-weight: lighter;
-    color: rgba(255, 255, 255, 0.8);
-    margin-bottom: 50px;
-  } */
-  
-  .card {
-    height: 350px;
-    width: 350px;
-    text-shadow: 0 1px 3px rgba(0,0,0,0.6);
-    background-size: cover !important;
-    color: white;
-    position: relative;
-    border-radius: 5px;
-    margin-bottom: 20px;
-    
-  }
-  .card-user {
-    position: absolute;
-    right: 10px;
-    top: 10px;
-  }
-  .card-category {
-    position: absolute;
-    top: 10px;
-    left: 10px;
-    font-size: 20px;
-  }
-  .card-description {
-    position: absolute;
-    bottom: 10px;
-    left: 10px;
-  }
-  .card-description h2 {
-    font-size: 18px;
-    /* color:#f39e12ff; */
-    color:#122a43ff;
-  }
-  .card-description p {
-    font-size: 15px;
-  }
-  .card-link {
-    position: absolute;
-    top: 0;
-    bottom: 0;
-    width: 100%;
-    z-index:2;
-    background: black;
-    opacity: 0;
-  }
-  .card-link:hover{
-    opacity: 0.1;
-  }
-  .features img {
-    width: 100px;
-  }
-  .features h2 {
-    font-size: 20px;
-    margin-bottom: 10px;
-  }
-  .features p {
-    font-size: 15px;
-    font-weight: lighter;
-  }
-
-
-  .cards-container{
-    display: flex;
-    justify-content: space-between;
-    text-align: center;
-    padding-top: 50px;
-  }
-
-
-  .card img {
-    width: 100%; /* Make the image fill the container */
-    height: auto; /* Maintain aspect ratio */
-    border-radius: 8px; /* Optional: Add border-radius for rounded corners */
-    position: absolute; /* Position the image absolutely within the card */
-    top: 0; /* Align the image to the top of the card */
-    left: 0; /* Align the image to the left of the card */
-    z-index: -1; /* Send the image to the back so that text appears on top */
-  }
-
-  @media (max-width : 780px) {
-    .cards-container{
-        display: block;
-        
-      }
-
-      .cards-heading h3{
-        font-size: 20px;
-        margin: 0 auto;
-        padding-bottom: 10px ;
-      }
-
-      .cards-single{
-        margin-bottom: 0px;
-        display: flex;
-        flex-direction: column;
-        align-items: center;
-        justify-content: center;
-      }
-  }
-
-
-
- .soldet1{
-  color: #0d73bbff;
- }
-
- .soldet2{
-  color: #a5248fff;
- }
-
- .soldet3{
-  color: #eb4840ff;
- }
-
- .margin-feature{
-  margin-top: 4rem;
- }

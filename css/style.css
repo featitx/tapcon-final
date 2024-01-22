@@ -794,7 +794,7 @@ textarea.form-control {
   display: flex;
   align-items: center;
   justify-content: center;
-  line-height: 36px;
+  line-height: 12px;
 }
 
 /*=====================================
