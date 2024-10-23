@@ -319,7 +319,8 @@ iframe {
 } */
 
 .navbar-custom {
-  padding: 20px 0px;
+  background-color: #122a43ff;;
+  padding: 5px 0px;
   width: 100%;
   border-radius: 0px;
   z-index: 999;
@@ -367,6 +368,13 @@ iframe {
 .navbar-custom .navbar-nav li.active a {
   color: #fff;
 }
+
+.Nav-div{
+  background-color: #122a43ff;
+  padding: 5px  30px;
+}
+
+
 
 .is-sticky .navbar-custom {
   margin-top: 0px;
@@ -858,7 +866,7 @@ textarea.form-control {
   .navbar-custom {
     margin-top: 0px;
     padding: 10px 0px !important;
-    background-color: #272a33 !important;
+    background-color: #122a43ff !important;
     box-shadow: 0 10px 33px rgba(0, 0, 0, 0.1);
     color: #fff !important;
   }
