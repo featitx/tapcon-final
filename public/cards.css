@@ -1,0 +1,65 @@
+
+    .page-title{
+        margin-top: 7rem;
+    }
+
+    .margin-feature{
+        margin-top: 4rem;
+    }
+
+    .card-image{
+        margin: 0 AUTO;
+    }
+
+.mar-b{
+    margin-bottom: 5rem;
+}
+
+
+.soldet1{
+    color: #0d73bbff;
+   }
+  
+   .soldet2{
+    color: #a5248fff;
+   }
+  
+   .soldet3{
+    color: #eb4840ff;
+   }
+
+
+ #ads .card:hover {
+    background: #fff;
+    box-shadow: 12px 15px 20px 0px rgba(46,61,73,0.15);
+    border-radius: 4px;
+    transition: all 0.3s ease;
+}
+
+#ads .card-image-overlay {
+font-size: 20px;
+
+}
+
+
+#ads .card-image-overlay span {
+    display: inline-block;              
+}
+
+.comming img{
+    width: 500px;
+    height: 500px;
+    margin-right: 30px;
+    
+}
+
+.comming{
+    max-width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+
+  
